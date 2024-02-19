@@ -1,0 +1,32 @@
+.inoviceprintContainer *{
+    font-size: 12px;
+    line-height: 120%;
+}
+
+.minHieght150InvoicePrint{
+    min-height: 150px;
+}
+
+.minHieght28InvoicePrint{
+    min-height: 28px;
+}
+
+.minHeight100InvoicePrint{
+    min-height: 100px;
+}
+
+.minHieght138InvoicePrint{
+    min-height: 138px;
+}
+
+.invoicePrintLogo{
+    max-height: 70px;
+    object-fit: contain;
+    object-position: right;
+}
+
+@media print{
+    .print_sec_sum4 {
+        display: none !important;
+      }
+}

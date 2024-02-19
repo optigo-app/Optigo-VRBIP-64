@@ -1,0 +1,90 @@
+.jewelelryRetailInvoiceContainer{
+    max-width: 900px !important;
+    padding-bottom: 60px;
+}
+
+.imgJewelleryRetailinovicePrint3{
+    height: auto !important;
+    max-width: 115.75px;
+    max-height: 100px;
+    object-fit: contain;
+    object-position: right;
+}
+
+.jewelelryRetailInvoiceContainer *{
+    font-size: 12px;
+    line-height: 120%;
+}
+
+.imageJewelleryC{
+    max-width: 105px;
+    max-height: 105px;
+}
+
+.w_20JewerryRetailInvoicePrint{
+    width: 20%;
+}
+
+.srNoJewerryRetailInvoicePrint{
+    width: 5%;
+}
+
+.productJewerryRetailInvoicePrint{
+    width: 20%;
+}
+.materialJewerryRetailInvoicePrint{
+    width: 65%;
+}
+.metalMakingJewerryRetailInvoicePrint{
+    width: 10%;
+}
+.othersJewerryRetailInvoicePrint{
+    width: 10%;
+}
+
+.totalJewerryRetailInvoicePrint{
+    width: 10%;
+}
+
+.wordsJewellry{
+    width: 64.05%;
+    min-height: 145px; 
+}
+
+.wordsJewerryRetailInvoicePrint{
+    background-color: #ffcccc;
+    flex: 1 1;
+    border: 1px solid #000; 
+}
+
+.RemarkJewelleryInvoicePrintC{
+    flex: 0 0;
+}
+
+.discountJewerryRetailInvoicePrint{
+    width: 35.9%;
+}
+
+.minHeight20RetailinvoicePrint3{
+    min-height: 20px;
+}
+
+.right_jewelleryinvoicePrintc{
+    right: -20%;
+}
+
+.declarationUlJewelleryRetailInvoicePrntc h3 sub span{
+    display: block;
+    padding-bottom: 5px;
+}
+
+@media print{
+    .jewelelryRetailInvoiceContainer{
+        max-width: 100% !important;
+        padding-bottom: 0;
+    }
+
+        .print_sec_sum4 {
+            display: none !important;
+          }
+}

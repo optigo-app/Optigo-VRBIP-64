@@ -1,0 +1,35 @@
+.manufacture_container *{
+    font-size: 14px;
+    line-height: 120%;
+}
+
+.img_manufacture{
+    max-width: 100px;
+    max-height: 100px;
+    object-fit: contain;
+    min-width: 100px;
+    min-height: 100px;
+}
+
+.height_manufacture{
+    min-height: 150px;
+}
+
+.blankArea{
+    left: -2px;
+    bottom: -20px;
+    padding-bottom: 20px;
+    width: calc(100% + 4px);
+    z-index: 2;
+}
+
+.width_301{
+    min-width: 301px;
+    width: 301px;
+}
+
+@media print{
+    .print_sec_sum4 {
+        display: none !important;
+      }
+}

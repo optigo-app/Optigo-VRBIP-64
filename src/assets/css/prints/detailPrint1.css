@@ -1,0 +1,146 @@
+.containerDetailPrint1 {
+    /* max-width: 297mm !important; */
+    max-width: 1200px !important;
+    padding: 0 5px !important;
+}
+
+.containerDetailPrint1 p, .containerDetailPrint1 p span {
+    word-break: break-all;
+    /* font-size: 8px; */
+    font-size: 10px;
+    line-height: 100%;
+}
+
+.containerDetailPrint1 * {
+    font-size: 10px;
+}
+
+.jewelleryPackingList {
+    background-color: #939292;
+}
+
+.lhDetailPrint1 {
+    line-height: 130%;
+}
+
+.srNoDetailprint11 {
+    /* width: 21px;
+    min-width: 21px; */
+    width: 3%;
+    min-width: 3%;
+}
+
+.designDetalPrint1 {
+    /* width: 65px;
+    min-width: 65px; */
+    width: 9%;
+    min-width: 9%;
+}
+
+.diamondDetailPrint1 {
+    /* width: 181.9px;
+    min-width: 181.9px; */
+    width: 21.9%;
+    min-width: 21.9%;
+}
+
+.stoneDetailsPrint1 {
+    /* width: 174.3px;
+    min-width: 174.3px; */
+    width: 21.8%;
+    min-width: 21.8%;
+}
+
+.metalDetailPrint1 {
+    width: 200px;
+    min-width: 200px;
+}
+
+.stoneDetailPrint1 {
+    width: 200px;
+    min-width: 200px;
+}
+
+.otherAmountDetailPrint1 {
+    width: 10.3%;
+    min-width: 10.3%;
+}
+
+.labourAmountDetailPrint1 {
+    width: 9%;
+    min-width: 9%;
+}
+
+.totalAmountDetailPrint1 {
+    width: 5%;
+    min-width: 5%;
+}
+
+.metalGoldDetailPrint1, .metalTotalDetailPrint1 {
+    width: 20%;
+    min-width: 20%;
+}
+
+.diamondDetailPrint1 * {
+    word-break: break-all;
+}
+
+.parentDetailPrint1 {
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.designDetalPrint1Total {
+    width: 12%;
+    min-width: 12%;
+}
+
+.cgstDetailPrint1 {
+    min-width: 95%;
+    width: 95%;
+}
+
+.cgstTotalDetailPrint1 {
+    min-width: 5%;
+    width: 5%;
+}
+
+.summaryPadBotDetailPrint1 {
+    padding-bottom: 30px;
+}
+
+.totalLineDetailPrint1 {
+    min-height: 18px;
+}
+
+.createdByDetailPrint1 {
+    min-height: 116px;
+}
+
+.paddingBottomTotalDetailPrint1 {
+    padding-bottom: 22px;
+}
+
+.totalMinHeightDetailPrint1 {
+    min-height: 18px;
+}
+
+@media print {
+    .containerDetailPrint1 {
+        zoom: unset;
+        margin: 0;
+    }
+
+    .recordDetailPrint1 {
+        page-break-inside: avoid;
+    }
+
+    .containerDetailPrint1 p, .containerDetailPrint1 p span {
+        font-size: 7px;
+    }
+
+    .print_sec_sum4 {
+        display: none !important;
+    }
+    
+}

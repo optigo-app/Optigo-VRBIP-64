@@ -1,0 +1,66 @@
+.detailPrint2 *{
+    word-break: normal;
+    font-size: 9px;
+}
+
+
+.print_sec_sum4 {
+    right: 15px;
+}
+
+.sr {
+    width: 5%;
+    min-width: 5%;
+}
+
+.design {
+    width: 11%;
+    min-width: 11%;
+}
+
+.diamond {
+    width: 23%;
+    min-width: 23%;
+}
+
+.metal {
+    width: 23%;
+    min-width: 23%;
+}
+
+.stone {
+    width: 13%;
+    min-width: 13%;
+}
+
+.other {
+    width: 8%;
+    min-width: 8%;
+}
+
+.labour {
+    width: 8%;
+    min-width: 8%;
+}
+
+.total, .cgstNumber {
+    width: 9%;
+    min-width: 9%;
+}
+
+.totalWord{
+    width: 16%;
+    min-width: 16%;
+}
+
+.cgst{
+    width: 91%;
+    min-width: 91%;
+}
+
+
+@media print {
+    .print_sec_sum4 {
+        display: none !important;
+    }
+}
